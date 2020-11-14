@@ -5,7 +5,10 @@
  */
 package math.util;
 
-import hieu.util.MathUtility;
+import static hieu.util.MathUtility.getFactorial;
+import static hieu.util.MathUtility.*;
+// câu lệnh mới từ JDK8 (5), khai báo sẵn hàm Static,
+//ở dưới gọi hàm static ko cần chấm, y chang C, chỉ áp dụng cho static
 
 /**
  *
@@ -20,15 +23,17 @@ public class MathUtil {
        //ta test thử hàm của ta 
        //dùng mắt để so sánh  kết quả thực tế khi chạy và kết quả ta mong đợi
        long expected = 120; // ta mong nhận 120  nếu gọi hàm 5!
-       long actual = MathUtility.getFactorial(5);
+       long actual = getFactorial(5);
         System.out.println("Expected:" + expected + "; actual:" + actual);
         
         //expected: 720 if tính 6!
-        System.out.println("6!:" + MathUtility.getFactorial(6));
+        System.out.println("6!:" + getFactorial(6));
         //expected : 1 if tính 0!
-        System.out.println("0! :" + MathUtility.getFactorial(0));
+        System.out.println("0! :" + getFactorial(0));
         //expected: IllegalargurmentException if tính -5!
-        System.out.println("-5! :" + MathUtility.getFactorial(-5));
+        System.out.println("-5! :" + getFactorial(-5));
+        // in thử PI coi có  giống Math.PI hem?
+        System.out.println("PI:" + PI);
     }
     
 }
