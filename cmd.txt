@@ -1,0 +1,107 @@
+Microsoft Windows [Version 10.0.18363.1198]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin>d:
+
+D:\>cd
+
+D:\>cd D:\major\prj321\all project\math-util
+
+D:\major\prj321\all project\math-util>dỉ
+'dỉ' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\major\prj321\all project\math-util>dir
+ Volume in drive D is Data
+ Volume Serial Number is B0C9-D793
+
+ Directory of D:\major\prj321\all project\math-util
+
+11/14/2020  11:44 AM    <DIR>          .
+11/14/2020  11:44 AM    <DIR>          ..
+11/14/2020  11:44 AM               361 .gitignore
+11/14/2020  11:05 AM    <DIR>          build
+11/13/2020  05:30 PM             3,612 build.xml
+11/14/2020  11:05 AM    <DIR>          dist
+11/13/2020  05:30 PM                85 manifest.mf
+11/13/2020  05:30 PM    <DIR>          nbproject
+11/13/2020  05:32 PM    <DIR>          src
+11/13/2020  05:34 PM    <DIR>          test
+               3 File(s)          4,058 bytes
+               7 Dir(s)  919,201,751,040 bytes free
+
+D:\major\prj321\all project\math-util>git config --global user.name "Hieu-ThanMinh"
+
+D:\major\prj321\all project\math-util>git config --global user.email k1692thanminhhieu@gmail.com
+
+D:\major\prj321\all project\math-util>git init
+Initialized empty Git repository in D:/major/prj321/all project/math-util/.git/
+
+D:\major\prj321\all project\math-util>git add *
+
+D:\major\prj321\all project\math-util>git commit -m "1st upload"
+[master (root-commit) b89cf7e] 1st upload
+ 9 files changed, 2055 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 build.xml
+ create mode 100644 manifest.mf
+ create mode 100644 nbproject/build-impl.xml
+ create mode 100644 nbproject/genfiles.properties
+ create mode 100644 nbproject/project.properties
+ create mode 100644 nbproject/project.xml
+ create mode 100644 src/hieu/util/MathUtility.java
+ create mode 100644 src/math/util/MathUtil.java
+
+D:\major\prj321\all project\math-util>git branch -M main
+
+D:\major\prj321\all project\math-util>git remote add origin https://github.com/Hieu-ThanMinh/math-util.git
+
+D:\major\prj321\all project\math-util>git remote add origin https://github.com/Hieu-ThanMinh/math-util.gitgit remote add origin https://github.com/Hieu-ThanMinh/math-util.gitgit remote add origin https://github.com/Hieu-ThanMinh/math-util.gitgit remote add origin https://github.com/Hieu-ThanMinh/math-util.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+D:\major\prj321\all project\math-util>git remote add origin https://github.com/Hieu-ThanMinh/math-util.git
+fatal: remote origin already exists.
+
+D:\major\prj321\all project\math-util>git push -u origin main
+info: please complete authentication in your browser...
+^C
+D:\major\prj321\all project\math-util>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (17/17), 16.86 KiB | 863.00 KiB/s, done.
+Total 17 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Hieu-ThanMinh/math-util.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+D:\major\prj321\all project\math-util>git add *
+
+D:\major\prj321\all project\math-util>git commit -m "2nd: import static modification"
+[main 4527715] 2nd: import static modification
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+
+D:\major\prj321\all project\math-util>git  push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 740 bytes | 370.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Hieu-ThanMinh/math-util.git
+   b89cf7e..4527715  main -> main
+
+D:\major\prj321\all project\math-util>
