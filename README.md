@@ -1,5 +1,7 @@
 # welcome to Math Utility repository
-this repository contains a java project to simulate a well-know JDK class - the Math Class. you will find out the most of popular math methods such as: sqrt(),  getFactorial() in this repo
+this repository contains a java project to simulate a well-know JDK 
+Class - the Math Class. you will find out the most of
+popular math methods such as: sqrt(),  getFactorial() in this repo
 You will find in this repo my owm code 
 regarding to most common math menthods, e.g.
 getFactorial() ~ n!
@@ -12,4 +14,4 @@ getFactorial() ~ n!
 * ...
 ### Connect me via
 [FB] (https://www.facebook.com/MinhHieu.JustDoIt)
-#### copyright symbol ©2020 by Hieu-ThanMinh| FPT University HCM
+#### ©2020 by Hieu-ThanMinh| FPT University HCM
