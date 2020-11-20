@@ -38,7 +38,7 @@ public class MathUtilityTest {
   //ngoại lệ Exception ko phải là 1 value đẻ mà so sánh
   //do đó  dùng hàm assertX() là ko đc, vì ko là value để so 
   //ta phải dùng kỹ thuật khác
-  @Test(expected = SQLException.class)
+  @Test(expected = IllegalArgumentException.class)
   public void getFactorial_ThrowsException_IfInvalidArgument(){
       MathUtility.getFactorial(-5);
   }
